@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Mortgage Calculator</title>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  
+  <h1>Mortgage Calculator</h1>
+
+  <!-- ENTRY FORM -->
+  <form id="loan-form" class="mortgage-calc-form">
+
+      <!-- Loan Amount -->
+      <label for="loan-amount" class="mortgage-calc-form-label">Loan Amount</label>
+      <input class="input mortgage-calc-form-input" id="amount" type="number" name="loan-amount" min="1">
+
+      <!-- Interest Rate -->
+      <label for="interest-rate" class="mortgage-calc-form-label">Interest Rate</label>
+      <input class="input mortgage-calc-form-input" id="interest" type="number" name="interest-rate" min="1">
+
+      <!-- Years -->
+      <label for="years" class="mortgage-calc-form-label">Years</label>
+      <input class="input mortgage-calc-form-input" id="years" type="number" name="years" min="1">
+
+
+      <button class="mortgage-calc-form-btn">Calculate</button>
+
+  </form>
+
+
+  <!-- RESULTS -->
+  <h2 class="title ">Results</h1>
+
+  <p id="monthlyPayment" class="title is-1">$0.00 Monthly Payments</p>
+  <p id="totalInterest" class="title is-1">%0.00 Total Interest</p>
+  <p id="totalPayment" class="title is-1">$0.00 Total Payment</p>
+
+
+<!-- My JavaScript File -->
+<script src="script.js"></script>
+
+</body>
+</html>
+

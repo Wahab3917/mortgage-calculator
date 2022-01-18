@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 80px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.mortgage-calc-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mortgage-calc-form-label {
+  align-self: flex-start;
+}
+
+.mortgage-calc-form-input {
+  width: 100%;
+  padding: 3px;
+  margin-bottom: 5px;
+}
+
+.mortgage-calc-form-btn {
+  margin: 20px 0;
+}
